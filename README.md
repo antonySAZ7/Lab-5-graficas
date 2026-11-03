@@ -1,10 +1,7 @@
-# Lab 5 — Sistema Ignis
+# Lab 5 
+Antony Saz — 24710
 
-**Antony Saz — 24710**
 
-Software renderer en C++ que rasteriza un sistema solar enteramente procedural.
-No se usan texturas, mapas de bits ni materiales: todos los colores nacen de
-shaders ejecutados por fragmento con posición, normal y UV interpoladas.
 
 ![Sistema Ignis](screenshots/sistema_ignis.png)
 
@@ -61,11 +58,7 @@ Las cuatro imágenes del README se regeneran sin abrir una ventana con:
 .\build\Release\lab5.exe --screenshots
 ```
 
-También se puede exportar únicamente una vista (`1` a `4`):
 
-```powershell
-.\build\Release\lab5.exe --screenshot 3
-```
 
 ## Estructura
 
